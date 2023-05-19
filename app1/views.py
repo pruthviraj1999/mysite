@@ -4,3 +4,6 @@ from django.http import HttpResponse
 
 def index(request):
     return HttpResponse("WELCOME TO GIT HUB PAGE")
+
+def sales(request):
+    return HttpResponse("Monthly Sales are 300")
