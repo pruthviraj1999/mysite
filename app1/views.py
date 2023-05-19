@@ -10,5 +10,5 @@ def sales(request):
 def app(request):
     return HttpResponse("welcome to app1 page")
 
-def products(request):
-    return HttpResponse("WELCOME TO PRODUCTS PAGE")
+def product2(request):
+    return HttpResponse("WELCOME TO PRODUCT2 PAGE")
