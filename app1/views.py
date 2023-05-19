@@ -13,7 +13,7 @@ def products(request):
     return HttpResponse(" Welcome to the new products")
 
 def users(request):
-    return HttpResponse('welcome to user page')
+    return HttpResponse('welcome to user users information')
 
 def customers(request):
     return HttpResponse('welcome to customers')
