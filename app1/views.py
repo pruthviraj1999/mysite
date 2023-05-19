@@ -10,7 +10,7 @@ def sales(request):
 def app(request):
     return HttpResponse("welcome to app1 page")
 def products(request):
-    return HttpResponse(" Welcome to the new products")
+    return HttpResponse(" Welcome to products")
 
 def users(request):
     return HttpResponse('welcome to users information')
