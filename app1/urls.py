@@ -6,5 +6,6 @@ from app1 import views
 urlpatterns =[
     path ('',views.index),
     path ('sales',views.sales),
-    path ('product2',views.product2),
+    path ('products',views.products),
+    path ('users',views.users),
 ]

@@ -9,6 +9,8 @@ def sales(request):
     return HttpResponse("Monthly Sales are 300")
 def app(request):
     return HttpResponse("welcome to app1 page")
+def products(request):
+    return HttpResponse(" Welcome to the new products")
 
-def product2(request):
-    return HttpResponse("WELCOME TO PRODUCT2 PAGE")
+def users(request):
+    return HttpResponse('welcome to user page')
