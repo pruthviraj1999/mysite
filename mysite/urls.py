@@ -23,5 +23,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('',index,name='index'),
     path('app1/',include('app1.urls')),
+
     path('app',app,name='app'),
 ]
