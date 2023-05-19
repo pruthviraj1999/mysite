@@ -16,4 +16,4 @@ def users(request):
     return HttpResponse('welcome to user page')
 
 def customers(request):
-    return HttpResponse('welcome to customers')
+    return HttpResponse('welcome to customers Page')
